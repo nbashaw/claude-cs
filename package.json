@@ -1,0 +1,38 @@
+{
+  "name": "customer-support-builder",
+  "version": "1.0.0",
+  "description": "A Claude Code skill that helps you build custom customer support automation for your company",
+  "main": "index.js",
+  "scripts": {
+    "example:check-setup": "tsx examples/scripts/check-setup.ts"
+  },
+  "keywords": [
+    "claude-code",
+    "customer-support",
+    "automation",
+    "helpscout",
+    "zendesk",
+    "intercom",
+    "stripe",
+    "support-automation",
+    "ai-assistant"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/customer-support-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/customer-support-builder/issues"
+  },
+  "homepage": "https://github.com/yourusername/customer-support-builder#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
