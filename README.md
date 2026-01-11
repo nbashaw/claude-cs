@@ -159,7 +159,7 @@ This skill can help you integrate with:
 
 ## Real-World Example
 
-The [Lex support skill](https://github.com/nbashaw/lex) was built using this approach:
+The Lex support automation was built using this approach:
 
 - **15 scripts** for HelpScout, Stripe, and PostgreSQL
 - **6 response templates** for common scenarios
