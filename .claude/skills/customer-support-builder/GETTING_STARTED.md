@@ -4,8 +4,11 @@
 
 1. **Install the skill**
    ```bash
-   cd ~/.claude/skills
-   git clone https://github.com/yourusername/claude-cs customer-support-builder
+   # Add the marketplace
+   claude plugin marketplace add nbashaw/claude-cs
+
+   # Install the skill
+   claude plugin install customer-support-builder
    ```
 
 2. **Navigate to your company repository**

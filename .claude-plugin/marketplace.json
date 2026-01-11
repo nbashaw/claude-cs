@@ -1,0 +1,22 @@
+{
+  "name": "customer-support-automation",
+  "owner": {
+    "name": "Nick Bashaw",
+    "email": "nick@lex.page"
+  },
+  "metadata": {
+    "description": "Skills for building and using customer support automation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "customer-support-builder",
+      "description": "A meta-skill that helps you build custom customer support automation for your company. Guides through integrating with support platforms (Zendesk, HelpScout, Intercom, etc.), billing systems (Stripe, etc.), and databases to create automated triage workflows.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./.claude/skills/customer-support-builder"
+      ]
+    }
+  ]
+}

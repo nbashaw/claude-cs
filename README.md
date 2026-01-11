@@ -36,29 +36,36 @@ By the end, you'll have:
 
 ## Installation
 
-### Option 1: Install as a Claude Code skill
+### Option 1: Install from marketplace (Recommended)
+
+1. Add the marketplace:
+   ```bash
+   claude plugin marketplace add nbashaw/claude-cs
+   ```
+
+2. Install the skill:
+   ```bash
+   claude plugin install customer-support-builder
+   ```
+
+3. Use it in any repository:
+   ```bash
+   cd /path/to/your/company/repo
+   claude
+   /customer-support-builder
+   ```
+
+### Option 2: Manual installation
 
 1. Clone this repository:
    ```bash
    cd ~/.claude/skills
-   git clone https://github.com/nbashaw/claude-cs customer-support-builder
+   git clone https://github.com/nbashaw/claude-cs
    ```
 
 2. Invoke the skill in Claude Code:
    ```bash
    /customer-support-builder
-   ```
-
-### Option 2: Use directly in your repository
-
-1. Copy the skill.md to your repository:
-   ```bash
-   cp customer-support-builder/skill.md /path/to/your/repo/.claude/skills/cs-builder/skill.md
-   ```
-
-2. Open Claude Code in your repository and invoke:
-   ```bash
-   /cs-builder
    ```
 
 ## Prerequisites
