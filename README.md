@@ -241,7 +241,7 @@ MIT
 
 ## Credits
 
-Created by [Nick Bashaw](https://github.com/nbashaw) for the Claude Code community.
+Created by [Nathan Baschez](https://github.com/nbashaw) for the Claude Code community.
 
 Inspired by real-world support automation at [Lex](https://lex.page).
 
